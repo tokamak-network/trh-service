@@ -19,3 +19,9 @@ export enum DeploymentStatus {
   STOPPED = 'STOPPED',
   COMPLETED = 'COMPLETED',
 }
+
+export enum CloudProvider {
+  AWS = 'AWS',
+  GCP = 'GCP',
+  AZURE = 'AZURE',
+}

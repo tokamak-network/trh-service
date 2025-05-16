@@ -1,6 +1,6 @@
 import { Column, Entity, ManyToOne, OneToMany } from 'typeorm';
 import { Core } from './core.entity';
-import { Status } from './enum';
+import { Status } from '../common/enums';
 import { Stack } from './stack.entity';
 import { Deployment } from './deployment.entity';
 

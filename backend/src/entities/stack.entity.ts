@@ -1,5 +1,5 @@
 import { Column, Entity, Unique, OneToMany } from 'typeorm';
-import { DeploymentNetwork, Status } from './enum';
+import { DeploymentNetwork, Status } from '../common/enums';
 import { Core } from './core.entity';
 import { Integration } from './integration.entity';
 import { Deployment } from './deployment.entity';

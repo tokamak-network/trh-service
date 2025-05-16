@@ -1,9 +1,9 @@
-import { Controller, Get } from '@nestjs/common';
-
+import { Controller, Post, Body } from '@nestjs/common';
+import { ThanosStackCreateRequestDto } from '../dtos/thanos-stack-create.request.dto';
 @Controller('thanos')
 export class ThanosController {
-  @Get()
-  getThanos() {
+  @Post()
+  createThanosStack(@Body() body: ThanosStackCreateRequestDto) {
     return 'Thanos';
   }
 }
